@@ -1,0 +1,57 @@
+{
+  "name": "dustjs-helpers-moment",
+  "version": "0.0.1",
+  "author": {
+    "name": "Paulo McNally"
+  },
+  "homepage": "https://github.com/paulomcnally/dustjs-helpers-moment",
+  "description": "Helpers Moment.js for dustjs-linkedin package",
+  "main": "./lib/dustjs-helpers-moment",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulomcnally/dustjs-helpers-moment.git"
+  },
+  "keywords": [
+    "templates",
+    "views",
+    "helpers",
+    "dust",
+    "dustjs",
+    "moment",
+    "momentjs",
+    "date",
+    "datetime"
+  ],
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.8"
+  },
+  "dependencies": {
+    "moment": "2.8.3"
+  },
+  "gitHead": "9064649a7b3d2a040813c77e323304f410133968",
+  "bugs": {
+    "url": "https://github.com/paulomcnally/dustjs-helpers-moment/issues"
+  },
+  "_id": "dustjs-helpers-moment@0.0.1",
+  "scripts": {},
+  "_shasum": "b1a37f70b70945ad66059236a5a5debdbb254a32",
+  "_from": "dustjs-helpers-moment@0.0.1",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "paulomcnally",
+    "email": "paulomcnally@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "paulomcnally",
+      "email": "paulomcnally@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "b1a37f70b70945ad66059236a5a5debdbb254a32",
+    "tarball": "http://registry.npmjs.org/dustjs-helpers-moment/-/dustjs-helpers-moment-0.0.1.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/dustjs-helpers-moment/-/dustjs-helpers-moment-0.0.1.tgz"
+}
