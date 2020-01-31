@@ -1,6 +1,6 @@
 {
   "name": "dustjs-helpers-moment",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Paulo McNally"
   },
@@ -24,7 +24,7 @@
   ],
   "license": "MIT",
   "engine": {
-    "node": ">=0.8"
+    "node": "10.16"
   },
   "dependencies": {
     "moment": "2.8.3"
@@ -53,5 +53,10 @@
     "tarball": "http://registry.npmjs.org/dustjs-helpers-moment/-/dustjs-helpers-moment-0.0.1.tgz"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/dustjs-helpers-moment/-/dustjs-helpers-moment-0.0.1.tgz"
+  "_resolved": "https://registry.npmjs.org/dustjs-helpers-moment/-/dustjs-helpers-moment-0.0.1.tgz",
+  "devDependencies": {
+    "jasmine": "^3.5.0",
+    "dustjs-linkedin": "2.6.1",
+    "dustjs-helpers": "git+https://github.com/PublicisDigital/dustjs-helpers.git"
+  }
 }
