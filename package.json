@@ -27,7 +27,7 @@
     "node": "10.16"
   },
   "dependencies": {
-    "moment": "2.8.3"
+    "moment": "2.24.0"
   },
   "gitHead": "9064649a7b3d2a040813c77e323304f410133968",
   "bugs": {s
