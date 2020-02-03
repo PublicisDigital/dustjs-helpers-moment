@@ -30,7 +30,7 @@
     "moment": "2.24.0"
   },
   "gitHead": "9064649a7b3d2a040813c77e323304f410133968",
-  "bugs": {s
+  "bugs": {
     "url": "https://github.com/paulomcnally/dustjs-helpers-moment/issues"
   },
   "_id": "dustjs-helpers-moment@0.0.1",
