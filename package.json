@@ -1,6 +1,6 @@
 {
   "name": "dustjs-helpers-moment",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Paulo McNally"
   },
@@ -30,7 +30,7 @@
     "moment": "2.8.3"
   },
   "gitHead": "9064649a7b3d2a040813c77e323304f410133968",
-  "bugs": {
+  "bugs": {s
     "url": "https://github.com/paulomcnally/dustjs-helpers-moment/issues"
   },
   "_id": "dustjs-helpers-moment@0.0.1",
