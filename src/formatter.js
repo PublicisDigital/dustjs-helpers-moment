@@ -1,5 +1,6 @@
 /**
- * 
+ * The Main formatter function to format the date.
+ * Moved it to a separate file so it can be tested.
  */
 export default function formatter({ 
     type,
