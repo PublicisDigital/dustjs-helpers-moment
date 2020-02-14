@@ -1,15 +1,14 @@
 {
   "name": "dustjs-helpers-moment",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": {
     "name": "Paulo McNally"
   },
-  "homepage": "https://github.com/paulomcnally/dustjs-helpers-moment",
+  "homepage": "https://github.com/PublicisDigital/dustjs-helpers-moment",
   "description": "Helpers Moment.js for dustjs-linkedin package",
-  "main": "./lib/dustjs-helpers-moment",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paulomcnally/dustjs-helpers-moment.git"
+    "url": "https://github.com/PublicisDigital/dustjs-helpers-moment.git"
   },
   "keywords": [
     "templates",
@@ -24,17 +23,32 @@
   ],
   "license": "MIT",
   "engine": {
-    "node": ">=0.8"
+    "node": ">=8.16"
   },
   "dependencies": {
     "moment": "2.24.0"
+  },
+  "devDependencies": {
+    "dustjs-helpers": "git+https://github.com/PublicisDigital/dustjs-helpers.git",
+    "dustjs-linkedin": "2.6.1",
+    "jasmine": "^3.5.0",
+    "js-loader": "^0.1.1",
+    "microbundle": "^0.11.0",
+    "parcel-bundler": "^1.12.4",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "source": "src/index.js",
+  "main": "./dist/dustjs-helpers-moment",
+  "scripts": {
+    "build": "microbundle --no-sourcemap --external moment,dustjs-linkedin -f cjs -o dist/",
+    "dev": "microbundle watch"
   },
   "gitHead": "9064649a7b3d2a040813c77e323304f410133968",
   "bugs": {
     "url": "https://github.com/paulomcnally/dustjs-helpers-moment/issues"
   },
   "_id": "dustjs-helpers-moment@0.0.1",
-  "scripts": {},
   "_shasum": "b1a37f70b70945ad66059236a5a5debdbb254a32",
   "_from": "dustjs-helpers-moment@0.0.1",
   "_npmVersion": "1.4.28",
